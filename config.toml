@@ -1,4 +1,3 @@
-# baseurl = "https://www.pacbsd.org"
 baseurl = "https://loki.vendion.me/"
 languageCode = "en-us"
 title = "PacBSD"
