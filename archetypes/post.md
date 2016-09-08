@@ -1,5 +1,7 @@
 +++
-categories = []
+categories = [
+  "News"
+]
 tags = []
 menu = ""
 banner = ""
