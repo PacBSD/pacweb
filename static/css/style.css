@@ -981,10 +981,9 @@ margin: auto;
 	text-decoration: none;
 }
 .article-more-link a:hover {
-	background: #337AB7;
-	color: #fff;
+	background: #b00;
+	color: #fff !important;
 	text-decoration: none;
-	text-shadow: 0 1px #169cd2;
 }
 .article-footer {
 	font-size: 0.85em;
