@@ -1,0 +1,27 @@
+<div class="image-info">
+  <ul>
+    <li>
+    <b>Current Release:</b> {{ .Page.Site.Data.release.image.date }}
+    </li>
+    <li>
+    <b>FreeBSD Base Version:</b> {{ .Page.Site.Data.release.image.base_version }}
+    </li>
+    <li>
+    <b>Image Size:</b> {{ .Page.Site.Data.release.image.size }}
+    </li>
+    <li>
+    <a href="{{ .Get "guide" }}">Installation Guide</a>
+    </li>
+    <li>
+    <b>Resources</b>
+    <ul>
+      <li>
+      <a href="{{ .Get "bugs" }}">Bug Tracker</a>
+      </li>
+      <li>
+      <a href="{{ .Get "lists" }}">Mailing Lists</a>
+      </li>
+    </ul>
+    </li>
+  </ul>
+</div>

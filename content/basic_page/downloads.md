@@ -12,18 +12,12 @@ url = "/download"
 
 ## Release Info
 
-We provide two diffrent images a ISO for buning to a CD/DVD, and a IMG file for
+We provide two different images a ISO for burning to a CD/DVD, and a IMG file for
 flashing to a USB stick using a utility like `dd`.  Both images are intended for
 new installations only; an existing PacBSD system can always be updated with
 `pacman -Syu`.
 
-*   **Current Relase:** 2016-07-21
-*   **FreeBSD Base Version:** 11.0-BETA1
-*   **Image Size:** 1.2 GB
-*   [Installation Guide](#)
-*   **Resources:**
-    *   [Bug Tracker](#)
-    *   [Mailing List](#)
+{{< images guide="#" bugs="#" lists="#">}}
 
 ## Existing PacBSD Users
 
@@ -47,28 +41,26 @@ via HTTP from the mirror sites listed below. Please ensure the download image
 matches the checksum from the md5sums.txt or sha1sums.txt file in the same
 directory as the image.
 
+### PGP Signature
+
+File validity can be checked with the following [signature file](#).
+
+
 ### Checksums
 
 File integrity checksums for the latest releases can be found below:
 
 #### ISO Installer
 
-*   [PGP
-    signature](/.sig)
-*   **MD5:** 415d63dc15c4dec34a845b01c184abb3
-*   **SHA1:** a64aa4d276888068e18c5c1e0e8c5f7e58094dce
+{{< checksums iso >}}
 
 #### IMG Installer
 
-*   [PGP signature](/.sig)
-*   **MD5:** b76e31c5d71fb39598a75146f14c5993
-*   **SHA1:** 2a42ace17656b451ddffda5c553f81e2aca73988
+{{< checksums img >}}
 
 ### Mirrors
 
-##### United States
-
-*   [packages.pacbsd.org](https://packages.pacbsd.org/iso)
+{{< mirrorlists >}}
 
 If you want to become an Official PacBSD Mirror please follow the
 instructions listed

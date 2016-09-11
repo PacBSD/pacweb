@@ -1,0 +1,22 @@
+<div class="image-checksums">
+  {{ $mode := .Get 0 }}
+  {{ if eq $mode "iso" }}
+  <ul>
+    <li>
+    <b>MD5:</b> {{ .Page.Site.Data.release.image.iso.md5 }}
+    </li>
+    <li>
+    <b>SHA1:</b> {{ .Page.Site.Data.release.image.iso.sha1 }}
+    </li>
+  </ul>
+  {{ else if eq $mode "img" }}
+  <ul>
+    <li>
+    <b>MD5:</b> {{ .Page.Site.Data.release.image.img.md5 }}
+    </li>
+    <li>
+    <b>SHA1:</b> {{ .Page.Site.Data.release.image.img.sha1 }}
+    </li>
+  </ul>
+  {{ end }}
+</div>

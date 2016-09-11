@@ -1,0 +1,9 @@
+{
+        "mirrors": [{
+                "country": "United States",
+                "mirrors": [{
+                        "name": "packages.pacbsd.org",
+                        "url": "https://packages.pacbsd.org/iso"
+                }]
+        }]
+}
