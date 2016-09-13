@@ -31,8 +31,7 @@ If you can spare the bytes, please leave the client open after your download is
 finished, so you can seed it back to others. A web-seed capable client is
 recommended for fastest download speeds.
 
-*   [ISO torrent file](#)
-*   [IMG torrent file](#)
+{{< torrents >}}
 
 ## HTTP Direct Downloads
 

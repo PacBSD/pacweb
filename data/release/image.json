@@ -4,10 +4,12 @@
         "size": "1.2 GB",
         "iso": {
                 "md5": "415d63dc15c4dec34a845b01c184abb3",
-                "sha1": "a64aa4d276888068e18c5c1e0e8c5f7e58094dce"
+                "sha1": "a64aa4d276888068e18c5c1e0e8c5f7e58094dce",
+                "torrent": "https://packages.pacbsd.org/iso/PacBSD-amd64-20160721.iso.torrent"
         },
         "img": {
                 "md5": "b76e31c5d71fb39598a75146f14c5993",
-                "sha1": "2a42ace17656b451ddffda5c553f81e2aca73988"
+                "sha1": "2a42ace17656b451ddffda5c553f81e2aca73988",
+                "torrent": "https://packages.pacbsd.org/iso/PacBSD-amd64-20160721.img.torrent"
         }
 }
