@@ -1,9 +1,22 @@
 {
-        "mirrors": [{
-                "country": "United States",
-                "mirrors": [{
-                        "name": "packages.pacbsd.org",
-                        "url": "https://packages.pacbsd.org/iso"
-                }]
-        }]
+        "mirrors": [
+                {
+                        "country": "France",
+                        "mirrors": [
+                                {
+                                        "name": "pacbsd.krkrkr.org",
+                                        "url": "http://pacbsd.krkrkr.org/iso/"
+                                }
+                        ]
+                },
+                {
+                        "country": "United States",
+                        "mirrors": [
+                                {
+                                        "name": "packages.pacbsd.org",
+                                        "url": "https://packages.pacbsd.org/iso"
+                                }
+                        ]
+                }
+        ]
 }
