@@ -1,0 +1,35 @@
+<table>
+  <thead>
+    <tr>
+      <th>Server</th>
+      <th>Country</th>
+      <th>Tier</th>
+      <th>ISOs</th>
+      <th>Protocals</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Page.Site.Data.release.mirrorlists.mirrors }}
+    {{ $country := .country }}
+    {{ range .mirrors }}
+    <tr>
+      <td>
+        <a href="{{ .url }}" target="_blank" rel="nofollow">{{ .name }}</a>
+      </td>
+      <td>
+        {{ $country }}
+      </td>
+      <td>
+        {{ .tier }}
+      </td>
+      <td>
+        {{ if .iso }}Yes{{ else }}No{{ end }}
+      </td>
+      <td>
+        {{ .proto }}
+      </td>
+    </tr>
+    {{ end }}
+    {{ end }}
+  </tbody>
+</table>

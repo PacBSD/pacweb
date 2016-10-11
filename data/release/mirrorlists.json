@@ -5,7 +5,10 @@
                         "mirrors": [
                                 {
                                         "name": "pacbsd.krkrkr.org",
-                                        "url": "http://pacbsd.krkrkr.org/iso/"
+                                        "url": "http://pacbsd.krkrkr.org",
+                                        "tier": "Tier 2",
+                                        "proto": "http",
+                                        "iso": "/iso"
                                 }
                         ]
                 },
@@ -14,7 +17,10 @@
                         "mirrors": [
                                 {
                                         "name": "packages.pacbsd.org",
-                                        "url": "https://packages.pacbsd.org/iso"
+                                        "url": "https://packages.pacbsd.org",
+                                        "tier": "Tier 1",
+                                        "proto": "https",
+                                        "iso": "/iso"
                                 }
                         ]
                 }
