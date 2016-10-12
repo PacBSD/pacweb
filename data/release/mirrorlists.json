@@ -7,7 +7,7 @@
                                         "name": "pacbsd.krkrkr.org",
                                         "url": "http://pacbsd.krkrkr.org",
                                         "tier": "Tier 2",
-                                        "proto": "http",
+                                        "proto": "https",
                                         "iso": "/iso"
                                 }
                         ]
