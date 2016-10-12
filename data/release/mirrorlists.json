@@ -8,7 +8,8 @@
                                         "url": "http://pacbsd.krkrkr.org",
                                         "tier": "Tier 2",
                                         "proto": "https",
-                                        "iso": "/iso"
+                                        "iso": "/iso",
+                                        "update_url": "https://pacbsd.krkrkr.org/mirror_info.json"
                                 }
                         ]
                 },
@@ -20,7 +21,8 @@
                                         "url": "https://packages.pacbsd.org",
                                         "tier": "Tier 1",
                                         "proto": "https",
-                                        "iso": "/iso"
+                                        "iso": "/iso",
+                                        "update_url": ""
                                 }
                         ]
                 }

@@ -6,6 +6,7 @@
       <th>Tier</th>
       <th>ISOs</th>
       <th>Protocols</th>
+      <th>Last Sync</th>
     </tr>
   </thead>
   <tbody>
@@ -27,6 +28,14 @@
       </td>
       <td>
         {{ .proto }}
+      </td>
+      <td>
+        {{ if .update_url }}
+        {{ $r := getJSON .update_url }}
+        {{ $r.pacbsd_mirror.update_date }} {{ $r.pacbsd_mirror.update_hour }}
+        {{ else }}
+        &dash;&dash;
+        {{ end }}
       </td>
     </tr>
     {{ end }}
