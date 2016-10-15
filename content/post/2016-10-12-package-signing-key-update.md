@@ -1,17 +1,17 @@
 +++
-draft = true
+draft = false
 categories = [
   "News",
 ]
 tags = [
-  "Intervetion Required",
+  "Intervention Required",
   "Manual Package Update"
 ]
 menu = ""
 banner = ""
 images = [
 ]
-date = "2016-10-12T19:46:17-04:00"
+date = "2016-10-15T00:00:00-04:00"
 title = "Package Signing Key Update"
 
 +++
@@ -46,3 +46,6 @@ issues resetting the trust level.  To upgrade the `pacbsd-keychain` package set
     # pacman -S pacbsd-keyring
     # pacman-key --init
     # pacman-key --populate pacbsd
+
+After that revert the `SigLevel` option of _/etc/pacman.conf_ back to the
+original `Required DatabaseOptional` setting.
