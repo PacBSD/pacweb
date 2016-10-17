@@ -20,7 +20,7 @@
                                         "name": "packages.pacbsd.org",
                                         "url": "https://packages.pacbsd.org",
                                         "tier": "Tier 1",
-                                        "proto": "https",
+                                        "proto": "https, rsync",
                                         "iso": "/iso",
                                         "update_url": ""
                                 }
