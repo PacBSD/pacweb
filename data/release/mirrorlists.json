@@ -5,7 +5,7 @@
                         "mirrors": [
                                 {
                                         "name": "pacbsd.krkrkr.org",
-                                        "url": "http://pacbsd.krkrkr.org",
+                                        "url": "https://pacbsd.krkrkr.org",
                                         "tier": "Tier 2",
                                         "proto": "https",
                                         "iso": "/iso",
