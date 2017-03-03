@@ -1,19 +1,6 @@
 {
         "mirrors": [
                 {
-                        "country": "France",
-                        "mirrors": [
-                                {
-                                        "name": "pacbsd.krkrkr.org",
-                                        "url": "https://pacbsd.krkrkr.org",
-                                        "tier": "Tier 2",
-                                        "proto": "https",
-                                        "iso": "/iso",
-                                        "update_url": "https://pacbsd.krkrkr.org/mirror_info.json"
-                                }
-                        ]
-                },
-                {
                         "country": "United States",
                         "mirrors": [
                                 {
