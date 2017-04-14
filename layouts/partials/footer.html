@@ -28,7 +28,7 @@
       </div>
     </div>
     <div id="footer-info" class="inner">
-	    &copy; 2013-{{.Now.Format "2006"}} Pacbsd Project <br>
+	    &copy; 2013-{{now.Format "2006"}} Pacbsd Project <br>
       {{ with .Site.Params.copyright }}{{ . | markdownify}}{{ end }}
     </div>
   </div>
