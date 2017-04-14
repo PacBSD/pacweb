@@ -834,10 +834,10 @@ a:visited {
 	transition: color 0.2s;
 }
 .article-title a:visited {
-	color: #07b !important;
+	color: #b00 !important;
 }
 .article-title a:hover {
-	color: #07b !important;
+	color: #b00 !important;
 }
 .article-entry {
 	color: #565a5f;
