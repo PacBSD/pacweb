@@ -1,0 +1,40 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Creation Date</th>
+      <th>Creator</th>
+      <th>Description</th>
+      <th>Package Count</th>
+      <th>Incomplete Count</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Page.Site.Data.todo.todolist.list }}
+    <tr>
+      <td>
+        {{ .name }}
+      </td>
+      <td>
+        {{ .created }}
+      </td>
+      <td>
+        {{ .creator }}
+      </td>
+      <td>
+        {{ .description }}
+      </td>
+      <td>
+        {{ .package_count }}
+      </td>
+      <td>
+        {{ .incomplete_count }}
+      </td>
+      <td>
+        {{ .status }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
