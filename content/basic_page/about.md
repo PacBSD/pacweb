@@ -1,21 +1,18 @@
 +++
 date = "2016-09-07T16:38:04-04:00"
 title = "About PacBSD"
-tags = [
-]
-categories = [
-]
+tags = []
+categories = []
 menu = ""
 banner = ""
-images = [
-]
+images = []
 url = "/about"
 
 +++
 
-PacBSD is an independently developed, x86-65 general purpose GNU/BSD
-distribution versatile enough to suit any role.  Development focuses on
-simplicity, minimalism, and code elegance.  PacBSD is installed as a minimal
+PacBSD is an independently developed, x86_64 general purpose GNU/BSD
+distribution versatile enough to suit any role. Development focuses on
+simplicity, minimalism, and code elegance. PacBSD is installed as a minimal
 base system, configured by the user upon which their own ideal environment is
 assembled by installing only what is required or desired for their unique
 purposes. GUI configuration utilities are not officially provided, and most
@@ -23,7 +20,7 @@ system configuration is performed from the shell by editing simple text files.
 PacBSD strives to stay bleeding edge, and typically offers the latest stable
 versions of most software.
 
-PacBSD uses Archlinux's Pacman package manager, which couples simple binary
+PacBSD uses Arch Linux's Pacman package manager, which couples simple binary
 packages with an easy-to-use package build system. This allows users to easily
 manage and customize packages ranging from official PacBSD software to the
 user's own personal packages to packages from 3rd party sources. The repository
@@ -32,10 +29,9 @@ scripts, packages, and repositories, encouraging community growth and
 contribution.
 
 The minimal PacBSD base package set resides in the streamlined _core_
-repository.  In addition, the official _extra_, _community_, and _testing_
+repository. In addition, the official _extra_, _community_, and _testing_
 repositories provide several thousand high-quality, packages to meet your
-software demands.  PacBSD also offers an _unsupported_ section in the PacBSD
-User Repository (PUR)
+software demands.
 
 PacBSD uses a "rolling release" system which allows one-time installation and
 perpetual software upgrades. It is not generally necessary to reinstall or
