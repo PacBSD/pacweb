@@ -40,11 +40,6 @@ via HTTP from the mirror sites listed below. Please ensure the download image
 matches the checksum from the md5sums.txt or sha1sums.txt file in the same
 directory as the image.
 
-### PGP Signature
-
-File validity can be checked with the following [signature file](#).
-
-
 ### Checksums
 
 File integrity checksums for the latest releases can be found below:
