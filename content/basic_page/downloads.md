@@ -22,7 +22,7 @@ new installations only; an existing PacBSD system can always be updated with
 ## Existing PacBSD Users
 
 If you are an existing PacBSD user, there is no need to download a new image to
-update your existing system. You may be looking for an [updated mirrorlist](#)
+update your existing system. You may be looking for an [updated mirrorlist](/mirrors/)
 instead.
 
 ## BitTorrent Download (recommended)
