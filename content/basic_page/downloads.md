@@ -22,7 +22,7 @@ new installations only; an existing PacBSD system can always be updated with
 ## Existing PacBSD Users
 
 If you are an existing PacBSD user, there is no need to download a new image to
-update your existing system. You may be looking for an [updated mirrorlist](#)
+update your existing system. You may be looking for an [updated mirrorlist](/mirrors/)
 instead.
 
 ## BitTorrent Download (recommended)
@@ -39,11 +39,6 @@ In addition to the BitTorrent links above, install images can also be downloaded
 via HTTP from the mirror sites listed below. Please ensure the download image
 matches the checksum from the md5sums.txt or sha1sums.txt file in the same
 directory as the image.
-
-### PGP Signature
-
-File validity can be checked with the following [signature file](#).
-
 
 ### Checksums
 
