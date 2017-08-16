@@ -7,9 +7,7 @@ menu = ""
 banner = ""
 images = []
 url = "/about"
-
 +++
-
 PacBSD is an independently developed, x86_64 general purpose GNU/BSD
 distribution versatile enough to suit any role. Development focuses on
 simplicity, minimalism, and code elegance. PacBSD is installed as a minimal
