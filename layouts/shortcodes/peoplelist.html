@@ -1,7 +1,8 @@
-<div class="well">
-    {{- $file := .Get 0 -}}
+{{- $file := .Get 0 -}}
 
-    {{- $data := getJSON $file -}}
-    {{- range $data -}}
-    {{- end -}}
-</div>
+{{- $data := getJSON $file -}}
+{{- partial "people/people-list-header.html" $data -}}
+
+{{- range $data.developers -}}
+{{- partial "people/person-details.html" . -}}
+{{- end -}}
