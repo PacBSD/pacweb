@@ -1,10 +1,12 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
-categories = ["News"]
 tags = []
+categories = []
+menu = ""
 banner = ""
 images = []
+url = ""
 draft = true
 +++
 

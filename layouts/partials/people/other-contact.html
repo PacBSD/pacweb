@@ -1,0 +1,9 @@
+{{- if .other_contact -}}
+<ul class="list-inline slim-list">
+    {{- range .other_contact -}}
+    <li class="list-inline-item">
+        {{ . }}
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}

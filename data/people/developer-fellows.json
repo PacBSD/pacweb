@@ -1,0 +1,38 @@
+{
+  "people": [
+    {
+      "real_name": "Kim \"BKC\" Carlbäcker ",
+      "alias": "bkcsoft",
+      "email": "",
+      "other_contact": [],
+      "pgp_key": "",
+      "pgp_fingerprint": "",
+      "roles": [],
+      "website": "",
+      "occupation": "",
+      "birth_year": null,
+      "location": "",
+      "languages": [],
+      "interests": [],
+      "favorite_distro": [],
+      "image_file": ""
+    },
+    {
+      "real_name": "claudiutraistaru",
+      "alias": "claudiutraistaru",
+      "email": "",
+      "other_contact": [],
+      "pgp_key": "",
+      "pgp_fingerprint": "",
+      "roles": [],
+      "website": "",
+      "occupation": "",
+      "birth_year": null,
+      "location": "",
+      "languages": [],
+      "interests": [],
+      "favorite_distro": [],
+      "image_file": ""
+    }
+  ]
+}

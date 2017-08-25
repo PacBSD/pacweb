@@ -1,0 +1,9 @@
+{{- if .interests -}}
+<ul class="list-inline slim-list">
+    {{- range .interests -}}
+    <li class="list-inline-item">
+        {{ . }}
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}

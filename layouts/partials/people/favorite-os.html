@@ -1,0 +1,9 @@
+{{- if .favorite_distro -}}
+<ul class="list-inline slim-list">
+    {{- range .favorite_distro -}}
+    <li class="list-inline-item">
+        {{ . }}
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}

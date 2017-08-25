@@ -1,0 +1,9 @@
+{{- if .roles -}}
+<ul class="list-inline slim-list">
+    {{- range .roles -}}
+    <li class="list-inline-item">
+        {{ . }}
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}
