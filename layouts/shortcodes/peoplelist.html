@@ -3,6 +3,6 @@
 {{- $data := getJSON $file -}}
 {{- partial "people/people-list-header.html" $data -}}
 
-{{- range $data.developers -}}
+{{- range $data.people -}}
 {{- partial "people/person-details.html" . -}}
 {{- end -}}
