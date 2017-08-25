@@ -1,19 +1,89 @@
 {
   "developers": [
     {
+      "real_name": "Anthony Donnelly",
+      "alias": "Amzo",
+      "email": "amzo-at-pacbsd.org",
+      "other_contact": [],
+      "pgp_key": "",
+      "pgp_fingerprint": "",
+      "roles": [],
+      "website": "",
+      "occupation": "",
+      "birth_year": null,
+      "location": "",
+      "languages": [],
+      "interests": [],
+      "favorite_distro": [],
+      "image_file": ""
+    },
+    {
+      "real_name": "Wolfgang Bumiller",
+      "alias": "Blub",
+      "email": "blub-at-pacbsd.org",
+      "other_contact": [],
+      "pgp_key": "",
+      "pgp_fingerprint": "",
+      "roles": [],
+      "website": "",
+      "occupation": "",
+      "birth_year": null,
+      "location": "",
+      "languages": [],
+      "interests": [],
+      "favorite_distro": [],
+      "image_file": ""
+    },
+    {
       "real_name": "Adam Jimerson",
       "alias": "vendion",
-      "email": "vendion-at-gmail-dot-com",
-      "other_contact": "",
-      "pgp_key": "",
-      "roles": "",
-      "website": "",
-      "Occupation": "",
+      "email": "vendion-at-pacbsd-dot-org",
+      "other_contact": [
+        "vendion-at-gmail-dot-com",
+        "irc://chat.freenode.net:vendion"
+      ],
+      "pgp_key": "0xBEA1370DEF146D8F",
+      "pgp_fingerprint": "43F9 E5B7 38D6 81B4 5315  AD5D BEA1 370D EF14 6D8F",
+      "roles": [
+        "Package Maintainer",
+        "Website Maintainer",
+        "Server Administrator"
+      ],
+      "website": "https://vendion.me",
+      "occupation": "Software Developer, System Architect, System Administrator",
       "birth_year": 1989,
-      "location": "Chattanooga, TN",
-      "languages": "English",
-      "Interests": "",
-      "Favorite Distro/OS": "OS2 Warp?",
+      "location": "Chattanooga, TN, USA",
+      "languages": ["English"],
+      "interests": [
+        "Programming/Technology",
+        "fantasy/scifi novels",
+        "anime",
+        "gaming",
+        "music"
+      ],
+      "favorite_distro": [
+        "Arch Linux",
+        "FreeBSD",
+        "SuSE",
+        "PacBSD"
+      ],
+      "image_file": "ba6c5f19da87f22d0e54194b8d54c3e7"
+    },
+    {
+      "real_name": "Mark Weiman",
+      "alias": "markzz",
+      "email": "",
+      "other_contact": [],
+      "pgp_key": "",
+      "pgp_fingerprint": "",
+      "roles": [],
+      "website": "",
+      "occupation": "",
+      "birth_year": null,
+      "location": "",
+      "languages": [],
+      "interests": [],
+      "favorite_distro": [],
       "image_file": ""
     }
   ]
