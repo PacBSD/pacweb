@@ -1,0 +1,24 @@
+@import "neat/neat";
+@import "bourbon/bourbon";
+
+.container {
+  @include grid-container;
+}
+
+.col-3 {
+  @include grid-column(3);
+}
+
+.col-6 {
+  @include grid-column(6);
+}
+
+ul.slim-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+
+  li {
+    padding-left: 0;
+  }
+}

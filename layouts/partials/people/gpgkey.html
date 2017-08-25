@@ -1,0 +1,5 @@
+{{- if .pgp_key -}}
+<a href="https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&exact=on&search={{ .pgp_key }}" title="PGP key search for {{ .pgp_fingerprint }}" target="_new">{{.pgp_key}}</a>
+{{- else -}}
+Unknown
+{{- end -}}

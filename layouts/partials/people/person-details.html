@@ -1,0 +1,110 @@
+<div class="container" id="{{ .alias }}">
+    <div class="col-3">
+        {{ partial "people/gravatar.html" . }}
+    </div>
+    <div class="col-6">
+        <div class="text-center">
+            <strong>
+                <a name="{{ .alias }}">{{ .real_name }}</a>
+            </strong>
+        </div>
+        <table class="table">
+            <tr>
+                <td>
+                    Alias:
+                </td>
+                <td>
+                    {{ .alias }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email
+                </td>
+                <td>
+                    {{ .email }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Other Contact
+                </td>
+                <td>
+                    {{ partial "people/other-contact.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PGP Key
+                </td>
+                <td>
+                    {{ partial "people/gpgkey.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Roles
+                </td>
+                <td>
+                    {{ partial "people/roles.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Website
+                </td>
+                <td>
+                    {{ partial "people/personal-website.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Occupation
+                </td>
+                <td>
+                    {{ .occupation }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Birth Year
+                </td>
+                <td>
+                    {{ .birth_year }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Location
+                </td>
+                <td>
+                    {{ .location }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Languages
+                </td>
+                <td>
+                    {{ partial "people/languages.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Interests
+                </td>
+                <td>
+                    {{ partial "people/interests.html" . }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favorite Distros/OS
+                </td>
+                <td>
+                    {{ partial "people/favorite-os.html" . }}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
