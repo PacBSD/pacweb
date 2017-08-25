@@ -1,0 +1,9 @@
+{{- if .languages -}}
+<ul class="list-inline slim-list">
+    {{- range .languages -}}
+    <li class="list-inline-item">
+        {{ . }}
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}

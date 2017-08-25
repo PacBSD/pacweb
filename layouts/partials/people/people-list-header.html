@@ -1,0 +1,9 @@
+<div class="text-center">
+    <ul class="list-inline">
+        {{- range .developers -}}
+            <li class="list-inline-item">
+                <a href="#{{ .alias }}">{{ .alias }}</a>
+            </li>
+        {{- end -}}
+    </ul>
+</div>
