@@ -1,34 +1,7 @@
 <footer id="footer">
   <div class="outer">
-    <div class="sponsors">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3>Hosting Sponsors</h3>
-            </div>
-            <div class="col-sm-6">
-              <p>
-              PacBSD is grateful to our hosting sponsors who help keep the lights on and allow us to concentrate on development.
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://www.digitalocean.com/" target="_blank" rel="nofollow" title="Digital Ocean">
-                    <img src="/banners/DO_Logo_Horizontal_Black.png" class="img-responsive" alt="Digital Ocean Logo" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
-        <div class="col-sm-6">
-          &nbsp;
-        </div>
-      </div>
-    </div>
     <div id="footer-info" class="inner">
-	    &copy; {{.Now.Format "2006"}} <i class="fa fa-github"></i> <a href="https://github.com/syui">syui</a>. <br>
+	    &copy; {{now.Format "2006"}} <i class="fa fa-github"></i> <a href="https://github.com/syui">syui</a>. <br>
       {{ with .Site.Params.copyright }}{{ . | markdownify}}{{ end }}
     </div>
   </div>
