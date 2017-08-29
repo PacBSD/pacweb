@@ -4,7 +4,7 @@ title = "PacBSD"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-105539748-1"
 # Define the number of posts per site
 paginate = 10
 theme = "hugo-theme-arch"
