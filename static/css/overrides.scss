@@ -1,5 +1,6 @@
 @import "neat/neat";
 @import "bourbon/bourbon";
+@import "colors";
 
 .container {
   @include grid-container;
@@ -20,5 +21,21 @@ ul.slim-list {
 
   li {
     padding-left: 0;
+  }
+}
+
+.archive-article-thumbnail .thumbnail {
+  .thumbnail-none {
+    background-image: url("images/thumb-default-small.png");
+    // background-color: #f9fbfd;
+    background-color: $smokeyWhite;
+  }
+  .thumbnail-image {
+    position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: $smokeyWhite;
   }
 }
