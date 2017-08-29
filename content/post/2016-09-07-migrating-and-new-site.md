@@ -2,20 +2,14 @@
 date = "2016-09-07T12:22:26-04:00"
 title = "Migrating to a New Server and New Website"
 draft = false
-images = [
-]
-categories = [
-  "News"
-]
+images = []
+categories = ["News"]
 tags = [
   "Site Updates",
   "Server Migration"
 ]
 menu = ""
-banner = ""
-
 +++
-
 Over the past few weeks we have been migrating everything over to a new server,
 due to some internal changes in maintainership as well as some issues with the
 old server.  The progress of this migration is slowly coming along, for the most

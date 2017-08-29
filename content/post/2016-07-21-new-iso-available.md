@@ -1,5 +1,4 @@
 +++
-categories = ["News"]
 date = "2016-07-21T00:00:00-04:00"
 images = []
 tags = ["New ISO"]

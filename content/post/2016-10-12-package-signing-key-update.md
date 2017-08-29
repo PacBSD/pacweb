@@ -1,21 +1,15 @@
 +++
 draft = false
-categories = [
-  "News",
-]
+categories = ["News"]
 tags = [
   "Intervention Required",
   "Manual Package Update"
 ]
 menu = ""
-banner = ""
-images = [
-]
+images = []
 date = "2016-10-15T00:00:00-04:00"
 title = "Package Signing Key Update"
-
 +++
-
 Due to one of the package signing key expiring manual intervention is required
 to update or for new installs.
 
