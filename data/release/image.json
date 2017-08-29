@@ -9,7 +9,7 @@
         },
         "img": {
                 "md5": "196776f84bb24dd0a2e0c3fb6fba224e",
-                "sha1": "6827949634f1433da6ddde7f1233d5739cf7c865",
+                "sha1": "5ba4ae13e3a915f8898d5b94b1bc925f69c45759",
                 "torrent": "https://packages.pacbsd.org/iso/PacBSD-amd64-20170814.img.torrent"
         }
 }
