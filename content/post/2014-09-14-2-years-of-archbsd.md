@@ -1,5 +1,4 @@
 +++
-banner = ""
 categories = ["News"]
 date = "2014-09-14T09:12:54-04:00"
 images = []
