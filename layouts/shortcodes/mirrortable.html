@@ -10,9 +10,9 @@
     </tr>
   </thead>
   <tbody>
-    {{ range $.Page.Site.Data.release.mirrorlists.mirrors }}
-    {{ $country := .country }}
-    {{ range .mirrors }}
+    {{- range $.Page.Site.Data.release.mirrorlists.mirrors -}}
+    {{- $country := .country -}}
+    {{- range .mirrors -}}
     <tr>
       <td>
         <a href="{{ .url }}" target="_blank" rel="nofollow">{{ .name }}</a>
@@ -30,15 +30,13 @@
         {{ .proto }}
       </td>
       <td>
-        {{ if .update_url }}
-        {{ $r := getJSON .update_url }}
-        {{ $r.pacbsd_mirror.update_date }} {{ $r.pacbsd_mirror.update_hour }}
-        {{ else }}
+        {{- if .update_url -}}
+        {{- else -}}
         &dash;&dash;
-        {{ end }}
+        {{- end -}}
       </td>
     </tr>
-    {{ end }}
-    {{ end }}
+    {{- end -}}
+    {{- end -}}
   </tbody>
 </table>

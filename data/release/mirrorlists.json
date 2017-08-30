@@ -1,17 +1,30 @@
 {
-        "mirrors": [
-                {
-                        "country": "United States",
-                        "mirrors": [
-                                {
-                                        "name": "packages.pacbsd.org",
-                                        "url": "https://packages.pacbsd.org",
-                                        "tier": "Tier 1",
-                                        "proto": "https, rsync",
-                                        "iso": "/iso",
-                                        "update_url": ""
-                                }
-                        ]
-                }
-        ]
+  "mirrors": [
+    {
+      "country": "United States",
+      "mirrors": [
+        {
+          "name": "packages.pacbsd.org",
+          "url": "https://packages.pacbsd.org",
+          "tier": "Tier 1",
+          "proto": "https, rsync",
+          "iso": "/iso",
+          "update_url": ""
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "mirrors": [
+        {
+          "name": "mirror-frankfurt.pacbsd.org",
+          "url": "https://mirror-frankfurt.pacbsd.org",
+          "tier": "Tier 1",
+          "proto": "https, rsync",
+          "iso": "/iso",
+          "update_url": ""
+        }
+      ]
+    }
+  ]
 }

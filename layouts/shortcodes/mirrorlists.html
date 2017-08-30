@@ -1,12 +1,12 @@
 <div class="mirrors">
-  {{ range $.Page.Site.Data.release.mirrorlists.mirrors }}
+  {{- range $.Page.Site.Data.release.mirrorlists.mirrors -}}
   <h5 id="{{ replace .country " " "-" | lower }}">{{ .country }}</h5>
   <ul>
-  {{ range .mirrors }}
+  {{- range .mirrors -}}
     <li>
     <a href="{{ .url }}{{ .iso }}" target="_blank" rel="nofollow">{{ .name }}</a>
     </li>
-  {{ end }}
+  {{- end -}}
   </ul>
-  {{ end }}
+  {{- end -}}
 </div>
