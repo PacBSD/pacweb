@@ -72,18 +72,36 @@
     {
       "real_name": "Mark Weiman",
       "alias": "markzz",
-      "email": "",
-      "other_contact": [],
-      "pgp_key": "",
-      "pgp_fingerprint": "",
-      "roles": [],
-      "website": "",
-      "occupation": "",
+      "email": "pacbsd-at-markzz-dot-com",
+      "other_contact": [
+        "mark-dot-weiman-at-markzz-dot-com"
+      ],
+      "pgp_key": "0xE53FAEB53CADDFDD",
+      "pgp_fingerprint": "CC68 E4A5 7117 A72D 67CC  9B05 E53F AEB5 3CAD DFDD",
+      "roles": [
+        "Package Maintainer"
+      ],
+      "website": "https://markzz.com",
+      "occupation": "Undergraduate Student, Software Developer",
       "birth_year": null,
-      "location": "",
-      "languages": [],
-      "interests": [],
-      "favorite_distro": [],
+      "location": "Jackson, MI, USA",
+      "languages": [
+        "English",
+        "German"
+      ],
+      "interests": [
+        "Mathematics",
+        "Music",
+        "Software",
+        "Games",
+        "Cars"
+      ],
+      "favorite_distro": [
+        "Arch Linux",
+        "Debian",
+        "PacBSD",
+        "FreeBSD"
+      ],
       "image_file": ""
     }
   ]
