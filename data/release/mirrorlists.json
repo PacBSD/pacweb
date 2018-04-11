@@ -25,6 +25,19 @@
           "update_url": ""
         }
       ]
+    },
+    {
+      "country": "Sweden",
+      "mirrors": [
+        {
+          "name": "ftp.acc.umu.se",
+          "url": "https://ftp.acc.umu.se/mirror/pacbsd.org/",
+          "tier": "Tier 1",
+          "proto": "http, https, rsync",
+          "iso": "/iso",
+          "update_url": "https://ftp.acc.umu.se/mirror/pacbsd.org/lastupdate"
+        }
+      ]
     }
   ]
 }
